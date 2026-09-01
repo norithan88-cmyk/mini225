@@ -14,7 +14,21 @@
       }
     },
     "long": {
-      "trades": [],
+      "trades": [
+        {
+          "id": "2026-09-01T10:25:01.510578+00:00",
+          "opened_at_utc": "2026-09-01T10:25:01.510578+00:00",
+          "bias": "SELL",
+          "entry": 65100.0,
+          "take_profit": 63715.0,
+          "stop_loss": 66585.0,
+          "confidence": 89,
+          "status": "OPEN",
+          "closed_at_utc": null,
+          "closed_price": null,
+          "pnl_pt": null
+        }
+      ],
       "stats": {
         "total_closed": 0,
         "wins": 0,
@@ -27,5 +41,5 @@
       }
     }
   },
-  "updated_at_utc": "2026-09-01T05:39:42.055578+00:00"
+  "updated_at_utc": "2026-09-01T10:25:01.510578+00:00"
 }
