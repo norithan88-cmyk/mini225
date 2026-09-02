@@ -1,7 +1,21 @@
 {
   "variants": {
     "freq": {
-      "trades": [],
+      "trades": [
+        {
+          "id": "2026-09-02T00:47:09.628250+00:00",
+          "opened_at_utc": "2026-09-02T00:47:09.628250+00:00",
+          "bias": "SELL",
+          "entry": 64490.0,
+          "take_profit": 64120.0,
+          "stop_loss": 64890.0,
+          "confidence": 87,
+          "status": "OPEN",
+          "closed_at_utc": null,
+          "closed_price": null,
+          "pnl_pt": null
+        }
+      ],
       "stats": {
         "total_closed": 0,
         "wins": 0,
@@ -41,5 +55,5 @@
       }
     }
   },
-  "updated_at_utc": "2026-09-01T22:58:38.076642+00:00"
+  "updated_at_utc": "2026-09-02T00:47:09.628250+00:00"
 }
