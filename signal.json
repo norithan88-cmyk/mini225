@@ -1,44 +1,47 @@
 {
-  "generated_at_utc": "2026-09-04T01:00:29.058295+00:00",
+  "generated_at_utc": "2026-09-04T05:35:38.457153+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、ミニ225の代理指標）",
-  "latest_price": 64785.0,
+  "latest_price": 65135.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 64785.0,
+      "latest_price": 65135.0,
       "signal": {
-        "bias": "WAIT",
-        "bias_label": "方向感なし",
-        "stars": 2,
-        "confidence": 50
+        "bias": "BUY",
+        "bias_label": "押し目買い優勢",
+        "stars": 4,
+        "confidence": 88
       },
       "priority_trade": {
-        "lead": "様子見 ― 1時間足・4時間足の方向が一致していない",
-        "entry": null,
-        "take_profit": null,
-        "stop_loss": null
+        "lead": "押し目買い ― 1時間足・4時間足の上昇方向一致＋5分足の押し目からの反発",
+        "entry": 65135.0,
+        "take_profit": 65355.0,
+        "stop_loss": 64885.0
       },
-      "reversal_setup": null,
+      "reversal_setup": {
+        "extreme": 64915.0,
+        "reverted_pt": 220.0
+      },
       "channels": [
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": 0.57,
-          "momentum": "FLAT",
-          "mid": 64596.0,
-          "upper": 65254.6,
-          "lower": 63937.5
+          "position_sigma": 1.36,
+          "momentum": "UP",
+          "mid": 64823.6,
+          "upper": 65279.9,
+          "lower": 64367.2
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.99,
-          "momentum": "FLAT",
-          "mid": 64507.0,
-          "upper": 65070.3,
-          "lower": 63943.7
+          "position_sigma": 1.71,
+          "momentum": "UP",
+          "mid": 64595.5,
+          "upper": 65226.4,
+          "lower": 63964.6
         }
       ]
     },
@@ -46,7 +49,7 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 64785.0,
+      "latest_price": 65135.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -64,20 +67,20 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.94,
-          "momentum": "FLAT",
-          "mid": 64521.6,
-          "upper": 65083.3,
-          "lower": 63959.9
+          "position_sigma": 1.41,
+          "momentum": "UP",
+          "mid": 64650.2,
+          "upper": 65338.8,
+          "lower": 63961.6
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -1.07,
+          "position_sigma": -0.59,
           "momentum": "FLAT",
-          "mid": 65367.1,
-          "upper": 66452.6,
-          "lower": 64281.6
+          "mid": 65430.7,
+          "upper": 66433.4,
+          "lower": 64428.0
         }
       ]
     }
