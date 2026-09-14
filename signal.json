@@ -1,44 +1,47 @@
 {
-  "generated_at_utc": "2026-09-13T23:17:23.455637+00:00",
+  "generated_at_utc": "2026-09-14T01:09:23.951780+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、ミニ225の代理指標）",
-  "latest_price": 63385.0,
+  "latest_price": 62850.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 63385.0,
+      "latest_price": 62850.0,
       "signal": {
-        "bias": "WAIT",
-        "bias_label": "方向感なし",
-        "stars": 2,
-        "confidence": 50
+        "bias": "SELL",
+        "bias_label": "戻り売り優勢",
+        "stars": 4,
+        "confidence": 87
       },
       "priority_trade": {
-        "lead": "様子見 ― 1時間足・4時間足の方向が一致していない",
-        "entry": null,
-        "take_profit": null,
-        "stop_loss": null
+        "lead": "戻り売り ― 1時間足・4時間足の下降方向一致＋5分足の戻りからの反落",
+        "entry": 62850.0,
+        "take_profit": 62600.0,
+        "stop_loss": 63130.0
       },
-      "reversal_setup": null,
+      "reversal_setup": {
+        "extreme": 63100.0,
+        "reverted_pt": 250.0
+      },
       "channels": [
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -1.6,
+          "position_sigma": -1.4,
           "momentum": "DOWN",
-          "mid": 64119.6,
-          "upper": 65036.9,
-          "lower": 63202.2
+          "mid": 63819.9,
+          "upper": 65206.0,
+          "lower": 62433.7
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.24,
-          "momentum": "FLAT",
-          "mid": 64066.5,
-          "upper": 65161.9,
-          "lower": 62971.2
+          "position_sigma": -1.46,
+          "momentum": "DOWN",
+          "mid": 63844.7,
+          "upper": 65210.0,
+          "lower": 62479.3
         }
       ]
     },
@@ -46,38 +49,41 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 63385.0,
+      "latest_price": 62850.0,
       "signal": {
-        "bias": "WAIT",
-        "bias_label": "方向感なし",
-        "stars": 2,
-        "confidence": 50
+        "bias": "SELL",
+        "bias_label": "戻り売り優勢",
+        "stars": 4,
+        "confidence": 88
       },
       "priority_trade": {
-        "lead": "様子見 ― 4時間足・日足の方向が一致していない",
-        "entry": null,
-        "take_profit": null,
-        "stop_loss": null
+        "lead": "戻り売り ― 4時間足・日足の下降方向一致＋1時間足の戻りからの反落",
+        "entry": 62850.0,
+        "take_profit": 61060.0,
+        "stop_loss": 64740.0
       },
-      "reversal_setup": null,
+      "reversal_setup": {
+        "extreme": 64640.0,
+        "reverted_pt": 1790.0
+      },
       "channels": [
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.22,
-          "momentum": "FLAT",
-          "mid": 64037.1,
-          "upper": 65102.3,
-          "lower": 62971.9
+          "position_sigma": -1.34,
+          "momentum": "DOWN",
+          "mid": 63755.9,
+          "upper": 65109.4,
+          "lower": 62402.4
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -1.47,
+          "position_sigma": -1.8,
           "momentum": "DOWN",
-          "mid": 64466.9,
-          "upper": 65937.3,
-          "lower": 62996.5
+          "mid": 64369.6,
+          "upper": 66055.3,
+          "lower": 62684.0
         }
       ]
     }
