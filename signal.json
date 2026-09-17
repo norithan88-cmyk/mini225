@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T19:53:06.185755+00:00",
+  "generated_at_utc": "2026-09-17T22:27:34.468848+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、ミニ225の代理指標）",
   "latest_price": 64810.0,
   "variants": {
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": 0.23,
+          "position_sigma": 0.11,
           "momentum": "FLAT",
-          "mid": 64753.7,
-          "upper": 65250.4,
-          "lower": 64257.0
+          "mid": 64788.3,
+          "upper": 65168.4,
+          "lower": 64408.3
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.95,
+          "position_sigma": 0.73,
           "momentum": "FLAT",
-          "mid": 64343.0,
-          "upper": 65328.7,
-          "lower": 63357.3
+          "mid": 64432.2,
+          "upper": 65461.0,
+          "lower": 63403.5
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.92,
+          "position_sigma": 0.76,
           "momentum": "FLAT",
-          "mid": 64522.0,
-          "upper": 65146.8,
-          "lower": 63897.2
+          "mid": 64598.6,
+          "upper": 65152.5,
+          "lower": 64044.8
         },
         {
           "key": "d1",
