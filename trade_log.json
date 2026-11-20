@@ -88,21 +88,21 @@
           "take_profit": 55165.0,
           "stop_loss": 55745.0,
           "confidence": 88,
-          "status": "OPEN",
-          "closed_at_utc": null,
-          "closed_price": null,
-          "pnl_pt": null
+          "status": "WIN",
+          "closed_at_utc": "2026-11-20T23:22:12.492693+00:00",
+          "closed_price": 54860.0,
+          "pnl_pt": 580.0
         }
       ],
       "stats": {
-        "total_closed": 6,
-        "wins": 3,
+        "total_closed": 7,
+        "wins": 4,
         "losses": 3,
-        "win_rate_pct": 50.0,
-        "avg_win_pt": 600.0,
+        "win_rate_pct": 57.1,
+        "avg_win_pt": 595.0,
         "avg_loss_pt": -816.7,
-        "profit_factor": 0.73,
-        "total_pt": -650.0
+        "profit_factor": 0.97,
+        "total_pt": -70.0
       }
     },
     "long": {
@@ -206,23 +206,23 @@
           "take_profit": 55285.0,
           "stop_loss": 58715.0,
           "confidence": 88,
-          "status": "OPEN",
-          "closed_at_utc": null,
-          "closed_price": null,
-          "pnl_pt": null
+          "status": "WIN",
+          "closed_at_utc": "2026-11-20T23:22:12.492693+00:00",
+          "closed_price": 54860.0,
+          "pnl_pt": 2090.0
         }
       ],
       "stats": {
-        "total_closed": 7,
-        "wins": 4,
+        "total_closed": 8,
+        "wins": 5,
         "losses": 3,
-        "win_rate_pct": 57.1,
-        "avg_win_pt": 1756.2,
+        "win_rate_pct": 62.5,
+        "avg_win_pt": 1823.0,
         "avg_loss_pt": -2433.3,
-        "profit_factor": 0.96,
-        "total_pt": -275.0
+        "profit_factor": 1.25,
+        "total_pt": 1815.0
       }
     }
   },
-  "updated_at_utc": "2026-11-20T17:46:11.433677+00:00"
+  "updated_at_utc": "2026-11-20T23:22:12.492693+00:00"
 }
