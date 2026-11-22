@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-22T18:41:17.177850+00:00",
+  "generated_at_utc": "2026-11-22T23:48:45.409961+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、ミニ225の代理指標）",
-  "latest_price": 54555.0,
+  "latest_price": 55870.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 54555.0,
+      "latest_price": 55870.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -0.98,
+          "position_sigma": 0.38,
           "momentum": "FLAT",
-          "mid": 55423.5,
-          "upper": 57188.3,
-          "lower": 53658.8
+          "mid": 55580.8,
+          "upper": 57110.1,
+          "lower": 54051.5
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.44,
-          "momentum": "DOWN",
-          "mid": 56998.9,
-          "upper": 60392.1,
-          "lower": 53605.7
+          "position_sigma": -0.51,
+          "momentum": "FLAT",
+          "mid": 56758.0,
+          "upper": 60245.0,
+          "lower": 53270.9
         }
       ]
     },
@@ -46,7 +46,7 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 54555.0,
+      "latest_price": 55870.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -64,20 +64,20 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.04,
+          "position_sigma": -0.12,
           "momentum": "FLAT",
-          "mid": 56248.5,
-          "upper": 59510.8,
-          "lower": 52986.3
+          "mid": 56027.5,
+          "upper": 58659.1,
+          "lower": 53395.8
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -1.98,
-          "momentum": "DOWN",
-          "mid": 58569.5,
-          "upper": 62626.0,
-          "lower": 54513.0
+          "position_sigma": -0.93,
+          "momentum": "FLAT",
+          "mid": 57920.7,
+          "upper": 62350.0,
+          "lower": 53491.5
         }
       ]
     }
